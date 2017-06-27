@@ -1,11 +1,11 @@
 +++
 date = "2017-07-01T12:00:00"
 draft = false
-tags = ["academic", "hugo"]
-title = "Getting started with the Academic framework for Hugo"
+tags = ["chebyshev", "polynomials", "numerical"]
+title = "Basic look over Chebyshev Polynomials"
 math = true
 summary = """
-Create a beautifully simple personal or academic website in under 10 minutes. 
+A intoductory article over the construction and behaviour of chebyshev polynomials
 """
 
 #[header]
@@ -39,6 +39,8 @@ $$ x_k = cos\left(\frac{2k-1}{2n}\pi\right),\ \ \ \ \ k=1,2,\dots, n$$
 
 They look something like this...
 
+![Chebyshev](../../img/chebyshev.png)
+
 the extrema of Chebyshev polynomials are distributed over the entire range of the approximation and have alternating values of plus or minus unity. These characteristics make Chebyshev polynomials an ideal basis for approximating functions Its a well known fact that Chebyshev function approximation is as good as it gets.
 
 
@@ -68,6 +70,6 @@ Chebyshev does better than fourier in almost all cases except for periodic funct
 
 ## License
 
-Copyright 2017 [Parth Thaker]().
+Copyright 2017 [Parth Thaker](https://parththaker.github.io/).
 
 Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md) license.

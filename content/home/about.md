@@ -42,4 +42,4 @@ I am presently prepping up for starting my PhD in Electrical Enginnering departm
 
 Previously, I was holding the position of Systems Engineer at [Netradyne](http://www.netradyne.com/). I was working on using sensor information from Mobile devices/IMU chips to draw out statistics on the general driving behavior of an individual to develop better driver safety features.
 
-I have masters from Electrical Department at IIT Madras. I did my Senior thesis under the guidance of [Dr. Radha Krishna Ganti](http://www.ee.iitm.ac.in/~rganti/) on the broad topic Rank Preserving optimization using Factored Gradient Descent. My thesis work can be found [here](https://www.dropbox.com/s/x9dixvvp44q79hc/thesis.pdf?dl=0)
+I have dual degree (B.Tech + M.Tech) from Electrical Department at IIT Madras. I did my Senior thesis under the guidance of [Dr. Radha Krishna Ganti](http://www.ee.iitm.ac.in/~rganti/) on the broad topic Rank Preserving optimization using Factored Gradient Descent. My thesis work can be found [here](https://www.dropbox.com/s/x9dixvvp44q79hc/thesis.pdf?dl=0)
