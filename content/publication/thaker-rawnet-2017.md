@@ -19,8 +19,8 @@ url_slides = ""
 url_video = ""
 
 [[url_custom]]
-    name = "BibTeX"
-    url = "txt/icde2017.txt"
+    name = "PDF"
+    url = "support_docs/1570301849.pdf"
 
 [header]
   caption = ""
