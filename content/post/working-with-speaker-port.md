@@ -38,7 +38,7 @@ But on trying to do something like this:
 cat <somefile>.mp3 | padsp tee /dev/audio > /dev/null
 ```
 
- Unsurprisingly it didnt work. Reason : My speculation, .mp3 is a coding format and it might not have suited the format in which /dev/audio wanted it... 
+ Unsurprisingly it didn't work. Reason : My speculation, .mp3 is a coding format and it might not have suited the format in which /dev/audio wanted it... 
 
 
 On to next cool thing (found a lot of them while tweaking things) is the program called mpg123. It is used as:
@@ -50,7 +50,7 @@ mpg123 <somefile>.mp3 | /dev/pcsp
 `/dev/pcsp` basically is your speaker. `mpg123` decodes .mp3 file into raw streaming data which is piped ('|') to speakers
 
 
-A good thing about speakers is that it can overlap all noises no locking system as to who can write and stuff. Ncie one...
+A good thing about speakers is that it can overlap all noises no locking system as to who can write and stuff. Nice one...
 
 
 Ok.. So we got a way in which we can run raw data streams into speakers. Now how about capturing what is being run to the speakers. In other words snooping on the /dev/pcsp (I am not sure /dev/pcsp is the right place to snoop.)
@@ -68,7 +68,7 @@ arecord -f cd -t raw | oggenc - -r -o file.ogg
 This will create a music file in the current directory which is capturing all of the sound played in your speakers.
 
 
-So where are we right now. We have a way to play to a speaker, we have a way to record from a speaker. Now the remaining si to make a connection.
+So where are we right now. We have a way to play to a speaker, we have a way to record from a speaker. Now the remaining is to make a connection.
 
 
 Supporting articles :

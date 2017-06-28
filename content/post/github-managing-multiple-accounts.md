@@ -5,7 +5,7 @@ tags = ["github", "multiple accounts"]
 title = "Managing multiple github accounts"
 math = true
 summary = """
-A intoductory article over the construction and behaviour of chebyshev polynomials
+A walkthrough on dealing with multiple github accounts
 """
 
 #[header]
@@ -24,16 +24,16 @@ It may seem as to the solution to both the problems should be the same, but they
 Having proper rights to pull from git
 -------------------------------------
 
-When you are dealing with multiple accounts, there is [this nice post](http://mherman.org/blog/2013/09/16/managing-multiple-github-accounts/#.WFKRwHV948o) which gives the instructions as to how to go about it.
+When you are dealing with multiple accounts, there is [ this nice post ](http://mherman.org/blog/2013/09/16/managing-multiple-github-accounts/#.WFKRwHV948o) which gives the instructions as to how to go about it.
 
-Here the basic essence of the whole procedure is that one has to be careful as to which SSH key is being associated with the github account. This is being precisely taretted in the above indicated post.
+Here the basic essence of the whole procedure is that one has to be careful as to which SSH key is being associated with the github account. This is being precisely targeted in the above indicated post.
 
 Having proper rights to push to git
 -----------------------------------
 
-Now the first question which comes to mind is, "Why isnt the last setup sufficient for resolving this?". 
+Now the first question which comes to mind is, "Why isn't the last setup sufficient for resolving this?". 
 
-That would have been the case (not requiring futher compications) if only one user can work on a single SSH key. You can have a single SSH key being used by different usernames on different github project. Hence the question arises, "Which is the correct username for the current commit push?"
+That would have been the case (not requiring further complications) if only one user can work on a single SSH key. You can have a single SSH key being used by different user-names on different github project. Hence the question arises, "Which is the correct user-name for the current commit push?"
 
 Thus, in conclusion, one should set up local config setting for each project using,
 

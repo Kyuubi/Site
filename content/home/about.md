@@ -12,33 +12,36 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Theoritical Optimization",
-    "Reinformcement Learning",
+    "Theoretical Optimization",
+    "Reinforcement Learning",
     "Deep Learning",
-    "Time Series Analysis"
+    "Time Series Analysis",
+    "Statistics"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "PhD in Electrical Engineering"
   institution = "Arizona State University"
-  year = 2021
+  startyear = 2017
+  endyear = 2021
 
 [[education.courses]]
   course = "M.Tech in Communication"
   institution = "Indian Institute of Technology, Madras"
-  year = 2016
+  startyear = 2015
+  endyear = 2016
 
 [[education.courses]]
-  course = "B.tech in Electrical Enginnering"
+  course = "B.Tech in Electrical Engineering"
   institution = "Indian Institute of Technology, Madras"
-  year = 2015
- 
+  startyear = 2011
+  endyear = 2015
 +++
 
 # Namaste!
 
-I am presently prepping up for starting my PhD in Electrical Enginnering department at Arizona State University. Here, I will be working with [Prof. Angelia Nedich](http://www.ifp.illinois.edu/~angelia/nedich.html) and [Prof. Anna Scaglione](https://scaglione.engineering.asu.edu/) on Large Scale Optimization. 
+I am presently prepping up for starting my PhD in Electrical Engineering department at Arizona State University. Here, I will be working with [Prof. Angelia Nedich](http://www.ifp.illinois.edu/~angelia/nedich.html) and [Prof. Anna Scaglione](https://scaglione.engineering.asu.edu/) on Large Scale Optimization. 
 
 Previously, I was holding the position of Systems Engineer at [Netradyne](http://www.netradyne.com/). I was working on using sensor information from Mobile devices/IMU chips to draw out statistics on the general driving behavior of an individual to develop better driver safety features.
 
